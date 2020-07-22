@@ -55,6 +55,8 @@ master.menu.administrator = Administrator
 master.menu.administrator.user-accounts = User accounts
 master.menu.administrator.notices = List notices
 master.menu.administrator.shutdown = Shut down
+master.menu.administrator.inquiries.list = List inquiries
+master.menu.administrator.inquiries.create = Create inquirie
 
 # master.menu.provider ########################################################
 
