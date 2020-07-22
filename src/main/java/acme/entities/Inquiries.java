@@ -3,11 +3,7 @@ package acme.entities;
 
 import java.time.LocalDateTime;
 
-import java.util.List;
-
 import javax.persistence.Entity;
-import javax.persistence.Temporal;
-import javax.persistence.TemporalType;
 import javax.validation.Valid;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
@@ -28,35 +24,35 @@ public class Inquiries extends DomainEntity {
 
 	// Serialisation identifier -----------------------------------------------
 
-	private static final long serialVersionUID = 1L;
+	private static final long	serialVersionUID	= 1L;
 
 	// Attributes -------------------------------------------------------------
 
 	@NotBlank
-	private String title;
+	private String				title;
 
 	@DateTimeFormat(pattern = "dd-MM-yyyy HH:mm")
 	@Past
 	@NotNull
-	private LocalDateTime creation;
+	private LocalDateTime		creation;
 
 	@DateTimeFormat(pattern = "dd-MM-yyyy HH:mm")
 	@NotNull
-	private LocalDateTime deadline;
+	private LocalDateTime		deadline;
 
 	@NotBlank
-	private String paragraph;
+	private String				paragraph;
 
 	@NotNull
 	@Valid
-	private Money moneyMin;
+	private Money				moneyMin;
 
 	@NotNull
 	@Valid
-	private Money moneyMax;
+	private Money				moneyMax;
 
 	@NotBlank
 	@Email
-	private String email;
+	private String				email;
 
 }

@@ -100,7 +100,7 @@
 
 
 	<!-- Inquiries -->
-	<bean id="inquirie" class="acme.entities.Inquiries">
+	<bean id="inquirie01" class="acme.entities.Inquiries">
 		<property name="title" value="Inquirie 1" />
 		<property name="creation" value="13-07-2020 18:53" />
 		<property name="deadline" value="01-08-2020 12:00" />
