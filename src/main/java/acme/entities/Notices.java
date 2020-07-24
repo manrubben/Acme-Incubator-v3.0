@@ -8,6 +8,7 @@ import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Past;
 
+import org.hibernate.validator.constraints.Length;
 import org.springframework.format.annotation.DateTimeFormat;
 
 import acme.framework.entities.DomainEntity;
@@ -29,6 +30,7 @@ public class Notices extends DomainEntity {
 	private String				headerPicture;
 
 	@NotBlank
+	@Length(max = 255)
 	private String				title;
 
 	@DateTimeFormat(pattern = "dd-MM-yyyy HH:mm")
