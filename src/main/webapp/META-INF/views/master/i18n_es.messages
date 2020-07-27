@@ -57,6 +57,7 @@ master.menu.administrator.notices = Listar noticias
 master.menu.administrator.shutdown = Parar el sistema
 master.menu.administrator.inquiries.list = Listar solicitudes
 master.menu.administrator.inquiries.create = Crear solicitud
+master.menu.administrator.notices.create = Crear noticia
 
 # master.menu.provider ########################################################
 
