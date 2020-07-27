@@ -19,7 +19,6 @@ public class AdministratorInquiriesCreateService implements AbstractCreateServic
 	@Autowired
 	private AdministratorInquiriesRepository repository;
 
-
 	@Override
 	public boolean authorise(final Request<Inquiries> request) {
 		assert request != null;
@@ -65,6 +64,16 @@ public class AdministratorInquiriesCreateService implements AbstractCreateServic
 		assert request != null;
 		assert entity != null;
 		assert errors != null;
+
+		if (!errors.hasErrors("moneyMin")) {
+			Boolean isEur = entity.getMoneyMin().getCurrency().matches("EUR|€|EUROS|Euros|euros|eur");
+			errors.state(request, isEur, "moneyMin", "administrator.inquiries.error.must-be-eur");
+		}
+
+		if (!errors.hasErrors("moneyMax")) {
+			Boolean isEur = entity.getMoneyMax().getCurrency().matches("EUR|€|EUROS|Euros|euros|eur");
+			errors.state(request, isEur, "moneyMin", "administrator.inquiries.error.must-be-eur");
+		}
 
 	}
 
