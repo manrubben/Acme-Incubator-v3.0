@@ -57,6 +57,8 @@ master.menu.administrator.notices = Listar noticias
 master.menu.administrator.shutdown = Parar el sistema
 master.menu.administrator.inquiries.list = Listar solicitudes
 master.menu.administrator.inquiries.create = Crear solicitud
+master.menu.administrator.overtures.list = Listar propuestas
+master.menu.administrator.overtures.create = Crear propuesta
 
 # master.menu.provider ########################################################
 
