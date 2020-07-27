@@ -57,6 +57,7 @@ master.menu.administrator.notices = List notices
 master.menu.administrator.shutdown = Shut down
 master.menu.administrator.inquiries.list = List inquiries
 master.menu.administrator.inquiries.create = Create inquirie
+master.menu.administrator.notices.create = Create notice
 master.menu.administrator.challenges.list = List challenges
 master.menu.administrator.challenges.create = Create challenges
 master.menu.administrator.overtures.list =List overtures
