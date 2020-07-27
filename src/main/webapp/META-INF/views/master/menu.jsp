@@ -64,6 +64,9 @@
 			<acme:menu-separator />
 			<acme:menu-suboption code="master.menu.administrator.inquiries.create" action="/administrator/inquiries/create" />
 			<acme:menu-separator />
+			<acme:menu-suboption code="master.menu.administrator.challenges.list" action="/administrator/challenges/list" />
+			<acme:menu-separator />
+			<acme:menu-suboption code="master.menu.administrator.challenges.create" action="/administrator/challenges/create" />
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.provider"
