@@ -67,6 +67,10 @@
 			<acme:menu-suboption code="master.menu.administrator.challenges.list" action="/administrator/challenges/list" />
 			<acme:menu-separator />
 			<acme:menu-suboption code="master.menu.administrator.challenges.create" action="/administrator/challenges/create" />
+      <acme:menu-separator />
+			<acme:menu-suboption code="master.menu.administrator.overtures.list" action="/administrator/overtures/list" />
+			<acme:menu-separator />
+			<acme:menu-suboption code="master.menu.administrator.overtures.create" action="/administrator/overtures/create" />
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.provider"

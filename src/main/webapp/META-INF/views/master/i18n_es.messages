@@ -59,6 +59,8 @@ master.menu.administrator.inquiries.list = Listar solicitudes
 master.menu.administrator.inquiries.create = Crear solicitud
 master.menu.administrator.challenges.list = Listar desafíos
 master.menu.administrator.challenges.create = Crear desafío
+master.menu.administrator.overtures.list = Listar propuestas
+master.menu.administrator.overtures.create = Crear propuesta
 
 # master.menu.provider ########################################################
 
