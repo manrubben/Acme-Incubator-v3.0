@@ -62,6 +62,11 @@ public class AdministratorNoticesCreateService implements AbstractCreateService<
 		assert request != null;
 		assert entity != null;
 		assert errors != null;
+
+		if (!errors.hasErrors("accept")) {
+			Boolean isAccepted = request.getModel().getBoolean("accept");
+			errors.state(request, isAccepted, "accept", "provider.requests.error.must-accept");
+		}
 	}
 
 	@Override
