@@ -12,4 +12,6 @@ administrator.overtures.form.button.create = Create
 administrator.overtures.form.button.update = Update
 administrator.overtures.form.button.delete = Delete
 
+administrator.overtures.error.must-be-eur = Money must be set in euros
+
 administrator.overtures.form.button.return = Return

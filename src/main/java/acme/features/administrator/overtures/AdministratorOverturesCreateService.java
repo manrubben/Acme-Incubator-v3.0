@@ -65,6 +65,11 @@ public class AdministratorOverturesCreateService implements AbstractCreateServic
 		assert request != null;
 		assert entity != null;
 		assert errors != null;
+		
+		if (!errors.hasErrors("rangeMoney")) {
+			Boolean isEur = entity.getRangeMoney().getCurrency().matches("EUR|€|EUROS|Euros|euros|eur");
+			errors.state(request, isEur, "rangeMoney", "administrator.overtures.error.must-be-eur");
+		}
 
 	}
 
