@@ -17,5 +17,8 @@ administrator.notices.form.label.creation = Creation:
 administrator.notices.form.label.deadline = Deadline:
 administrator.notices.form.label.body = Body:
 administrator.notices.form.label.links = Links:
+administrator.notices.form.button.create = Create
+administrator.notices.form.label.accept = Accept
+adminastrator.notices.error.must-accept = Must be accept
 
 administrator.notices.button.return = Return 

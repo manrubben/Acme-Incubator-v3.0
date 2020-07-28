@@ -9,6 +9,7 @@ import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Past;
 
+import org.hibernate.validator.constraints.Length;
 import org.springframework.format.annotation.DateTimeFormat;
 
 import acme.framework.datatypes.Money;
@@ -28,6 +29,7 @@ public class Overtures extends DomainEntity {
 	// Attributes -------------------------------------------------------------
 
 	@NotBlank
+	@Length(max = 255)
 	private String				title;
 
 	@DateTimeFormat(pattern = "dd-MM-yyyy HH:mm")
@@ -47,6 +49,7 @@ public class Overtures extends DomainEntity {
 
 	@Email
 	@NotBlank
+	@Length(max = 255)
 	private String				email;
 
 }
