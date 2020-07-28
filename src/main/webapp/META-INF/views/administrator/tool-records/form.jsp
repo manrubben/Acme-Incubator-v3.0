@@ -23,7 +23,7 @@
 	<acme:form-url code="administrator.tool-records.form.label.website" path="website"/>
 	<acme:form-textbox code="administrator.tool-records.form.label.email" path="email"/>
 	<acme:form-textbox code="administrator.tool-records.form.label.indication" path="indication"/>
-	<acme:form-integer code="administrator.tool-records.form.label.stars" path="stars"/>
+	<acme:form-integer code="administrator.tool-records.form.label.stars" path="stars" placeholder="-5 - 5"/>
 	
 	<acme:form-submit test="${command == 'show'}" code="administrator.tool-records.form.button.update"
 		action="/administrator/tool-records/update" />
@@ -31,6 +31,12 @@
 		action="/administrator/tool-records/delete" />
 	<acme:form-submit test="${command == 'create'}" code="administrator.tool-records.form.button.create"
 		action="/administrator/tool-records/create" />
+	<acme:form-submit test="${command == 'update'}" 
+		code="administrator.tool-records.form.button.update"
+		action="/administrator/tool-records/update" />
+	<acme:form-submit test="${command == 'delete'}" 
+		code="administrator.tool-records.form.button.delete"
+		action="/administrator/tool-records/delete" />
 	
   	<acme:form-return code="administrator.tool-records.button.return"/>
 </acme:form>

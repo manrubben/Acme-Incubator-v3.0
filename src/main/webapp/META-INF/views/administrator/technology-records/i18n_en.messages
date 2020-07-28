@@ -20,6 +20,9 @@ administrator.technology-records.list.label.activitySector = Activity sector:
 administrator.technology-records.list.label.inventorsName = Inventor's name:
 administrator.technology-records.list.label.description = Description:
 
+administrator.technology-records.form.button.create = Create
+administrator.technology-records.form.button.update = Update
+administrator.technology-records.form.button.delete = Delete
 administrator.technology-records.form.button.return = Return
 
 administrator.technology-records.list.label.title = Title
