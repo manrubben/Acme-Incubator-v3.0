@@ -70,6 +70,10 @@
 			<acme:menu-separator />
 			<acme:menu-suboption code="master.menu.administrator.notices"
 				action="/administrator/notices/list" />
+			<acme:menu-suboption code="master.menu.administrator.create-tool-records"
+				action="/administrator/tool-records/create" />
+			<acme:menu-suboption code="master.menu.administrator.list-tool-records"
+				action="/administrator/tool-records/list" />
 			<acme:menu-separator />
 
 			<acme:menu-suboption
