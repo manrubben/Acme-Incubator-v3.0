@@ -37,8 +37,6 @@
 		<acme:form-money code="administrator.challenges.form.label.rookieReward" path="rookieReward"/>
 	</acme:form-panel>
 	
-  	<acme:form-return code="administrator.challenges.form.button.return"/>
-  	
   	<acme:form-submit test="${command == 'show'}" 
 	code="administrator.challenges.form.button.update" 
 	action="/administrator/challenges/update"/>
@@ -58,5 +56,7 @@
 	<acme:form-submit test="${command == 'delete'}" 
 	code="administrator.challenges.form.button.delete" 
 	action="/administrator/challenges/delete"/>
+	
+	<acme:form-return code="administrator.challenges.form.button.return"/>
 	
 </acme:form>

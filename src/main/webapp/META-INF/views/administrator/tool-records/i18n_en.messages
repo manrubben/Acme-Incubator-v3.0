@@ -21,4 +21,8 @@ administrator.tool-records.form.label.email = Email:
 administrator.tool-records.form.label.indication = Indication:
 administrator.tool-records.form.label.stars = Stars:
 
+administrator.tool-records.form.button.create = Create
+administrator.tool-records.form.button.update = Update
+administrator.tool-records.form.button.delete = Delete
+
 administrator.tool-records.button.return = Return 

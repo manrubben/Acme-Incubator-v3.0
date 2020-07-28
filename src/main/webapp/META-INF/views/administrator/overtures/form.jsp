@@ -21,8 +21,8 @@
 	<acme:form-moment code="administrator.overtures.form.label.creation" path="creation" readonly="true"/>
 	</jstl:if>
 	<acme:form-moment code="administrator.overtures.form.label.deadline" path="deadline"/>
-	<acme:form-textbox code="administrator.overtures.form.label.paragraph" path="paragraph"/>
-	<acme:form-integer code="administrator.overtures.form.label.rangeMoney" path="rangeMoney"/>
+	<acme:form-textarea code="administrator.overtures.form.label.paragraph" path="paragraph"/>
+	<acme:form-money code="administrator.overtures.form.label.rangeMoney" path="rangeMoney"/>
 	<acme:form-textbox code="administrator.overtures.form.label.email" path="email"/>
 	
 	<acme:form-submit test="${command == 'show'}" 
