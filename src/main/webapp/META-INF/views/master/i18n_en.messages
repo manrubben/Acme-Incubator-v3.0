@@ -56,7 +56,16 @@ master.menu.administrator.user-accounts = User accounts
 master.menu.administrator.notices = List notices
 master.menu.administrator.create-tool-records = Create tool records
 master.menu.administrator.list-tool-records = List tool records
+master.menu.administrator.technology-records.create = Create technology Records
+master.menu.administrator.technology-records.list = List technology Records
 master.menu.administrator.shutdown = Shut down
+master.menu.administrator.inquiries.list = List inquiries
+master.menu.administrator.inquiries.create = Create inquirie
+master.menu.administrator.notices.create = Create notice
+master.menu.administrator.challenges.list = List challenges
+master.menu.administrator.challenges.create = Create challenges
+master.menu.administrator.overtures.list =List overtures
+master.menu.administrator.overtures.create = Create overture
 
 # master.menu.provider ########################################################
 
