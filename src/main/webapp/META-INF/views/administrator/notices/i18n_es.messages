@@ -19,6 +19,6 @@ administrator.notices.form.label.body = Cuerpo:
 administrator.notices.form.label.links = Links:
 administrator.notices.form.button.create = Crear
 administrator.notices.form.label.accept = Aceptar
-adminastrator.notices.error.must-accept = Debe ser aceptado
+administrator.notices.error.must-accept = Debe ser aceptado
 
 administrator.notices.button.return = Volver 
