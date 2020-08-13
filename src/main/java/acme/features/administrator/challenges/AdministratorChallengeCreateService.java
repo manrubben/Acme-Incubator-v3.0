@@ -1,6 +1,8 @@
 
 package acme.features.administrator.challenges;
 
+import java.time.LocalDateTime;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -66,6 +68,13 @@ public class AdministratorChallengeCreateService implements AbstractCreateServic
 			errors.state(request, eurZoneRookie, "rookieReward", "administrator.challenges.error.euroZone");
 			errors.state(request, eurZoneAverage, "averageReward", "administrator.challenges.error.euroZone");
 			errors.state(request, eurZoneExpert, "expertReward", "administrator.challenges.error.euroZone");
+
+			boolean isAfter = entity.getDeadline().isAfter(LocalDateTime.now());
+			if (!isAfter) {
+				if (!errors.hasErrors("deadline")) {
+					errors.state(request, isAfter, "deadline", "administrator.challenges.error.deadlineIsAfter");
+				}
+			}
 
 		}
 
