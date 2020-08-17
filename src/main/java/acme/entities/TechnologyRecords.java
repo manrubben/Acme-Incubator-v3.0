@@ -10,9 +10,8 @@ import javax.validation.constraints.Min;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 
-import org.hibernate.validator.constraints.URL;
-
 import org.hibernate.validator.constraints.Length;
+import org.hibernate.validator.constraints.URL;
 
 import acme.framework.entities.DomainEntity;
 import lombok.Getter;
@@ -36,9 +35,8 @@ public class TechnologyRecords extends DomainEntity {
 	@Length(max = 255)
 	private String				title;
 
-	@NotBlank
-	@Length(max = 255)
-	private String				activitySector;
+	@NotNull
+	private ActivitySector		activitySector;
 
 	@NotBlank
 	@Length(max = 255)
@@ -58,8 +56,7 @@ public class TechnologyRecords extends DomainEntity {
 	@Length(max = 255)
 	private String				email;
 
-	@NotBlank
-	@Length(max = 255)
+	@NotNull
 	private String				indication;
 
 	@Min(value = -5)
