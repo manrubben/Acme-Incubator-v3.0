@@ -1,12 +1,21 @@
-authenticated.technology-records.form.label.title = Title:
-authenticated.technology-records.form.label.activitySector = Activity sector:
-authenticated.technology-records.form.label.inventorsName = Inventor's name:
-authenticated.technology-records.form.label.description = Description:
-authenticated.technology-records.form.label.website = Website:
+authenticated.technology-records.form.label.title = Título:
+authenticated.technology-records.form.label.activitySector = Sector de actividad:
+authenticated.technology-records.form.label.inventorsName = Nombre del inventor:
+authenticated.technology-records.form.label.description = Descripción:
+authenticated.technology-records.form.label.website = Sitio web:
 authenticated.technology-records.form.label.email = Email:
-authenticated.technology-records.form.label.indication = Indication:
-authenticated.technology-records.form.label.stars = Stars:
+authenticated.technology-records.form.label.indication = Indicación:
+authenticated.technology-records.form.label.stars = Estrellas:
 
-authenticated.technology-records.form.button.return = Return
+authenticated.technology-records.form.button.return = Volver
 
-authenticated.technology-records.list.label.title = Title
+authenticated.technology-records.list.label.activitySector = Sector de actividad
+
+authenticated.technology-records.form.label.activitySector.technology = Tecnología
+authenticated.technology-records.form.label.activitySector.science = Ciencia
+authenticated.technology-records.form.label.activitySector.arts = Artes
+authenticated.technology-records.form.label.activitySector.business = Negocios
+authenticated.technology-records.form.label.activitySector.health = Salud
+
+authenticated.technology-records.form.label.indication.open-source = Fuente abierta
+authenticated.technology-records.form.label.indication.closed-source = Fuente cerrada
