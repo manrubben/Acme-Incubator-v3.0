@@ -68,14 +68,6 @@ public class AdministratorChallengeCreateService implements AbstractCreateServic
 			errors.state(request, eurZoneRookie, "rookieReward", "administrator.challenges.error.euroZone");
 			errors.state(request, eurZoneAverage, "averageReward", "administrator.challenges.error.euroZone");
 			errors.state(request, eurZoneExpert, "expertReward", "administrator.challenges.error.euroZone");
-
-			boolean isAfter = entity.getDeadline().isAfter(LocalDateTime.now());
-			if (!isAfter) {
-				if (!errors.hasErrors("deadline")) {
-					errors.state(request, isAfter, "deadline", "administrator.challenges.error.deadlineIsAfter");
-				}
-			}
-
 		}
 
 		if (!errors.hasErrors("expertReward") && !errors.hasErrors("averageReward") && !errors.hasErrors("rookieReward")) {
@@ -85,6 +77,13 @@ public class AdministratorChallengeCreateService implements AbstractCreateServic
 			errors.state(request, orderReward, "rookieReward", "administrator.challenges.error.rookieReward");
 			errors.state(request, orderReward, "averageReward", "administrator.challenges.error.averageReward");
 
+		}
+
+		boolean isAfter = entity.getDeadline().isAfter(LocalDateTime.now());
+		if (!isAfter) {
+			if (!errors.hasErrors("deadline")) {
+				errors.state(request, isAfter, "deadline", "administrator.challenges.error.deadlineIsAfter");
+			}
 		}
 
 	}
