@@ -43,7 +43,7 @@ public class AdministratorOverturesCreateService implements AbstractCreateServic
 		assert entity != null;
 		assert model != null;
 
-		request.unbind(entity, model, "title", "deadline", "paragraph", "rangeMoney", "email");
+		request.unbind(entity, model, "title", "deadline", "paragraph", "moneyMin", "moneyMax", "email");
 
 	}
 
@@ -65,10 +65,15 @@ public class AdministratorOverturesCreateService implements AbstractCreateServic
 		assert request != null;
 		assert entity != null;
 		assert errors != null;
-		
-		if (!errors.hasErrors("rangeMoney")) {
-			Boolean isEur = entity.getRangeMoney().getCurrency().matches("EUR|€|EUROS|Euros|euros|eur");
-			errors.state(request, isEur, "rangeMoney", "administrator.overtures.error.must-be-eur");
+
+		if (!errors.hasErrors("moneyMin")) {
+			Boolean isEur = entity.getMoneyMin().getCurrency().matches("EUR|€|EUROS|Euros|euros|eur");
+			errors.state(request, isEur, "moneyMin", "administrator.inquiries.error.must-be-eur");
+		}
+
+		if (!errors.hasErrors("moneyMax")) {
+			Boolean isEur = entity.getMoneyMax().getCurrency().matches("EUR|€|EUROS|Euros|euros|eur");
+			errors.state(request, isEur, "moneyMin", "administrator.inquiries.error.must-be-eur");
 		}
 
 	}

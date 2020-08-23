@@ -296,4 +296,139 @@ m2=*
 has v</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;120.0</additional_attributes>
   </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>231</x>
+      <y>357</y>
+      <w>224</w>
+      <h>126</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Notices
+--
++ headerPicture: String {NotBlank} 
++ title: String {NotBlank, Length(max = 255)}
++ creation: LocalDateTime {DataTimeFormat(
+pattern = "dd-MM-yyyy HH:mm"), Past, NotNull}
++ deadline: LocalDateTime {@DateTimeFormat
+(pattern = "dd-MM-yyyy HH:mm"), NotNull}
++ body: String {NotBlank}
++ links: String
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>476</x>
+      <y>357</y>
+      <w>238</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Inquiries
+--
++ title: String {NotBlank, Length(max = 255)} 
++ creation: LocalDateTime {DataTimeFormat(
+pattern = "dd-MM-yyyy HH:mm"), Past, NotNull}
++ deadline: LocalDateTime {@DateTimeFormat
+(pattern = "dd-MM-yyyy HH:mm"), NotNull}
++ paragraph: String {NotBlank}
++ moneyMin: Money {NotNull, Valid}
++ moneyMax: Money {NotNull, Valid}
++ email: String {NotBlank, Email, Length(max = 255)}
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>735</x>
+      <y>357</y>
+      <w>238</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Overtures
+--
++ title: String {NotBlank, Length(max = 255)} 
++ creation: LocalDateTime {DataTimeFormat(
+pattern = "dd-MM-yyyy HH:mm"), Past, NotNull}
++ deadline: LocalDateTime {@DateTimeFormat
+(pattern = "dd-MM-yyyy HH:mm"), NotNull}
++ paragraph: String {NotBlank}
++ moneyMin: Money {NotNull, Valid}
++ moneyMax: Money {NotNull, Valid}
++ email: String {NotBlank, Email, Length(max = 255)}
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>231</x>
+      <y>518</y>
+      <w>273</w>
+      <h>133</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+TechnologyRecords
+--
++ title: String {NotBlank, Length(max = 255)} 
++ activitySector: ActivitySector {NotNull}
++ inventorName: String {NotBlank, Length(max = 255)}
++ description: String {NotBlank, Length(max = 255)}
++ website: String {URL, NotBlank, Length(max = 255)}
++ email: String {Email, NotBlank, Length(max = 255)}
++ indication: String {NotNull}
++ stars: Integer {Min(value = -5), Max(value = -5)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>539</x>
+      <y>518</y>
+      <w>280</w>
+      <h>133</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+ToolRecords
+--
++ title: String {NotBlank, Length(max = 255)} 
++ activitySector: ActivitySector {NotNull}
++ inventorName: String {NotBlank, Length(max = 255)}
++ description: String {NotBlank, Length(max = 255)}
++ website: String {URL, NotBlank, Length(max = 255)}
++ email: String {Email, NotBlank, Length(max = 255)}
++ indication: String {NotNull}
++ stars: Integer {Min(value = -5), Max(value = -5)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>840</x>
+      <y>518</y>
+      <w>259</w>
+      <h>154</h>
+    </coordinates>
+    <panel_attributes> &lt;&lt;Entity&gt;&gt;
+Challenges
+--
++ title: String {NotBlank, Length(max = 255)} 
++ deadline: LocalDateTime {@DateTimeFormat
+(pattern = "dd-MM-yyyy HH:mm"), NotNull}
++ description: String {NotBlank, Length(max = 255)}
++ expertGoal: String {NotBlank, Length(max = 255)}
++ averageGoal: String {NotBlank, Length(max = 255)}
++ rookieGoal: String {NotBlank, Length(max = 255)}
++ expertReward: Money {NotNull, Valid}
++ averageReward: Money {NotNull, Valid}
++ rookieReward: Money {NotNull, Valid}
+</panel_attributes>
+    <additional_attributes/>
+  </element>
 </diagram>
