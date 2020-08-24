@@ -307,7 +307,7 @@ has v</panel_attributes>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
 Notices
 --
-+ headerPicture: String {NotBlank} 
++ headerPicture: String {URL} 
 + title: String {NotBlank, Length(max = 255)}
 + creation: LocalDateTime {DataTimeFormat(
 pattern = "dd-MM-yyyy HH:mm"), Past, NotNull}
