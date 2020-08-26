@@ -307,7 +307,7 @@ has v</panel_attributes>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
 Notices
 --
-+ headerPicture: String {URL} 
++ headerPicture: String {URL,NotBlank} 
 + title: String {NotBlank, Length(max = 255)}
 + creation: LocalDateTime {DataTimeFormat(
 pattern = "dd-MM-yyyy HH:mm"), Past, NotNull}
@@ -429,6 +429,45 @@ Challenges
 + averageReward: Money {NotNull, Valid}
 + rookieReward: Money {NotNull, Valid}
 </panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>50</x>
+      <y>660</y>
+      <w>220</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Enum&gt;&gt;
+Activity Sector
+--
++ Technology
++ Science
++ Arts
++ Business
++ Health
+
+
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>50</x>
+      <y>550</y>
+      <w>210</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Enum&gt;&gt;
+Indication
+--
++ Open_source
++ Closed_source
+
+
+bg=yellow</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>
