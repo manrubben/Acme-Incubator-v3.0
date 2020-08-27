@@ -470,4 +470,22 @@ Indication
 bg=yellow</panel_attributes>
     <additional_attributes/>
   </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1210</x>
+      <y>330</y>
+      <w>340</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Configuration
+--
++ spamWords: String {NotBlank}
++ spamThreshold : Double {Range, Digits}
++ activitySectors: String {NotBlank}
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
 </diagram>
