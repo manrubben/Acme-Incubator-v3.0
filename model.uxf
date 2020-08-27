@@ -301,18 +301,16 @@ has v</panel_attributes>
     <coordinates>
       <x>330</x>
       <y>510</y>
-      <w>320</w>
-      <h>180</h>
+      <w>380</w>
+      <h>150</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
 Notices
 --
 + headerPicture: String {URL,NotBlank} 
 + title: String {NotBlank, Length(max = 255)}
-+ creation: LocalDateTime {DataTimeFormat(
-pattern = "dd-MM-yyyy HH:mm"), Past, NotNull}
-+ deadline: LocalDateTime {@DateTimeFormat
-(pattern = "dd-MM-yyyy HH:mm"), NotNull}
++ creation: LocalDateTime {DateTimeFormat, Past, NotNull}
++ deadline: LocalDateTime {DateTimeFormat, NotNull}
 + body: String {NotBlank}
 + links: String
 
@@ -322,19 +320,17 @@ pattern = "dd-MM-yyyy HH:mm"), Past, NotNull}
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>680</x>
+      <x>760</x>
       <y>510</y>
-      <w>340</w>
-      <h>200</h>
+      <w>380</w>
+      <h>180</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
 Inquiries
 --
 + title: String {NotBlank, Length(max = 255)} 
-+ creation: LocalDateTime {DataTimeFormat(
-pattern = "dd-MM-yyyy HH:mm"), Past, NotNull}
-+ deadline: LocalDateTime {@DateTimeFormat
-(pattern = "dd-MM-yyyy HH:mm"), NotNull}
++ creation: LocalDateTime {DateTimeFormat, Past, NotNull}
++ deadline: LocalDateTime {DateTimeFormat, NotNull}
 + paragraph: String {NotBlank}
 + moneyMin: Money {NotNull, Valid}
 + moneyMax: Money {NotNull, Valid}
@@ -345,19 +341,17 @@ pattern = "dd-MM-yyyy HH:mm"), Past, NotNull}
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1050</x>
+      <x>1190</x>
       <y>510</y>
-      <w>340</w>
-      <h>200</h>
+      <w>380</w>
+      <h>180</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
 Overtures
 --
 + title: String {NotBlank, Length(max = 255)} 
-+ creation: LocalDateTime {DataTimeFormat(
-pattern = "dd-MM-yyyy HH:mm"), Past, NotNull}
-+ deadline: LocalDateTime {@DateTimeFormat
-(pattern = "dd-MM-yyyy HH:mm"), NotNull}
++ creation: LocalDateTime {DateTimeFormat, Past, NotNull}
++ deadline: LocalDateTime {DateTimeFormat, NotNull}
 + paragraph: String {NotBlank}
 + moneyMin: Money {NotNull, Valid}
 + moneyMax: Money {NotNull, Valid}
@@ -378,7 +372,7 @@ TechnologyRecords
 --
 + title: String {NotBlank, Length(max = 255)} 
 + activitySector: ActivitySector {NotNull}
-+ inventorName: String {NotBlank, Length(max = 255)}
++ inventorsName: String {NotBlank, Length(max = 255)}
 + description: String {NotBlank, Length(max = 255)}
 + website: String {URL, NotBlank, Length(max = 255)}
 + email: String {Email, NotBlank, Length(max = 255)}
@@ -399,7 +393,7 @@ ToolRecords
 --
 + title: String {NotBlank, Length(max = 255)} 
 + activitySector: ActivitySector {NotNull}
-+ inventorName: String {NotBlank, Length(max = 255)}
++ inventorsName: String {NotBlank, Length(max = 255)}
 + description: String {NotBlank, Length(max = 255)}
 + website: String {URL, NotBlank, Length(max = 255)}
 + email: String {Email, NotBlank, Length(max = 255)}
@@ -410,17 +404,16 @@ ToolRecords
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1200</x>
+      <x>1220</x>
       <y>740</y>
       <w>370</w>
-      <h>220</h>
+      <h>200</h>
     </coordinates>
     <panel_attributes> &lt;&lt;Entity&gt;&gt;
 Challenges
 --
 + title: String {NotBlank, Length(max = 255)} 
-+ deadline: LocalDateTime {@DateTimeFormat
-(pattern = "dd-MM-yyyy HH:mm"), NotNull}
++ deadline: LocalDateTime {DateTimeFormat, NotNull}
 + description: String {NotBlank, Length(max = 255)}
 + expertGoal: String {NotBlank, Length(max = 255)}
 + averageGoal: String {NotBlank, Length(max = 255)}
@@ -468,24 +461,6 @@ Indication
 
 
 bg=yellow</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>1210</x>
-      <y>330</y>
-      <w>340</w>
-      <h>130</h>
-    </coordinates>
-    <panel_attributes>&lt;&lt;Entity&gt;&gt;
-Configuration
---
-+ spamWords: String {NotBlank}
-+ spamThreshold : Double {Range, Digits}
-+ activitySectors: String {NotBlank}
-
-</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>
