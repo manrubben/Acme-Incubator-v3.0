@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 
 import acme.entities.Notices;
 import acme.framework.components.Errors;
+import acme.framework.components.HttpMethod;
 import acme.framework.components.Model;
 import acme.framework.components.Request;
 import acme.framework.entities.Administrator;
@@ -42,6 +43,12 @@ public class AdministratorNoticesCreateService implements AbstractCreateService<
 		assert model != null;
 
 		request.unbind(entity, model, "headerPicture", "title", "deadline", "body", "links");
+		
+		if (request.isMethod(HttpMethod.GET)) {
+			model.setAttribute("accept", "false");
+		} else {
+			request.transfer(model, "accept");
+		}
 	}
 
 	@Override
@@ -65,7 +72,7 @@ public class AdministratorNoticesCreateService implements AbstractCreateService<
 
 		if (!errors.hasErrors("accept")) {
 			Boolean isAccepted = request.getModel().getBoolean("accept");
-			errors.state(request, isAccepted, "accept", "provider.requests.error.must-accept");
+			errors.state(request, isAccepted, "accept", "administrator.notices.error.must-accept");
 		}
 
 		if (!errors.hasErrors("deadline")) {
