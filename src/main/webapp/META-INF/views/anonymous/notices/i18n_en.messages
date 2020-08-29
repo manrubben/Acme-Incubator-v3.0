@@ -15,5 +15,8 @@ anonymous.notices.form.label.deadline = Deadline:
 anonymous.notices.form.label.body = Body:
 anonymous.notices.form.label.links = Links:
 
+anonymous.notices.form.list.title = Title
+anonymous.notices.form.list.creation = Creation
+
 anonymous.notices.form.button.return = Return
 

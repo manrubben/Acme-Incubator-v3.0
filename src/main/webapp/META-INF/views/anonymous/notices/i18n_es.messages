@@ -15,4 +15,7 @@ anonymous.notices.form.label.deadline = Fecha de vencimiento:
 anonymous.notices.form.label.body = Cuerpo:
 anonymous.notices.form.label.links = Links:
 
+anonymous.notices.form.list.title = Título
+anonymous.notices.form.list.creation = Creación
+
 anonymous.notices.form.button.return = Volver atrás
