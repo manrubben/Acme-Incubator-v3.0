@@ -9,7 +9,7 @@
 # they accept any liabilities with respect to them.
 
 authenticated.overtures.form.label.title = Título:
-authenticated.overtures.form.label.creation = Creación:
+authenticated.overtures.form.label.creation = Momento de Creación:
 authenticated.overtures.form.label.deadline = Fecha límite:
 authenticated.overtures.form.label.paragraph = Párrafo:
 authenticated.overtures.form.label.moneyMin = Dinero mínimo:
@@ -19,4 +19,4 @@ authenticated.overtures.form.label.email = Correo:
 authenticated.overtures.form.button.return = Volver
 
 authenticated.overtures.list.label.title = Título
-authenticated.overtures.list.label.creation = Creación
+authenticated.overtures.list.label.creation = Momento de Creación

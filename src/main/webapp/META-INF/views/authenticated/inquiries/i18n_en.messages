@@ -9,7 +9,7 @@
 # they accept any liabilities with respect to them.
 
 authenticated.inquiries.form.label.title = Title:
-authenticated.inquiries.form.label.creation = Creation:
+authenticated.inquiries.form.label.creation = Creation moment:
 authenticated.inquiries.form.label.deadline = Deadline:
 
 authenticated.inquiries.form.label.moneyMin = Minimum money:
@@ -20,4 +20,4 @@ authenticated.inquiries.form.label.email = Email:
 authenticated.inquiries.form.button.return = Return
 
 authenticated.inquiries.list.label.title = Title
-authenticated.inquiries.list.label.creation = Creation
+authenticated.inquiries.list.label.creation = Creation moment

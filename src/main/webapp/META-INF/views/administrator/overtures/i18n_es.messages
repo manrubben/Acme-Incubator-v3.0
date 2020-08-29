@@ -9,10 +9,10 @@
 # they accept any liabilities with respect to them.
 
 administrator.overtures.list.label.title = Título
-administrator.overtures.list.label.creation = Creación
+administrator.overtures.list.label.creation = Momento de Creación
 
 administrator.overtures.form.label.title = Título:
-administrator.overtures.form.label.creation = Creación:
+administrator.overtures.form.label.creation = Momento de Creación:
 administrator.overtures.form.label.deadline = Fecha límite:
 administrator.overtures.form.label.paragraph = Párrafo:
 administrator.overtures.form.label.moneyMin = Dinero mínimo:

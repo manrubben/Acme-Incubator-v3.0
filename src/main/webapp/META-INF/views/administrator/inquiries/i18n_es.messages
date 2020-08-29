@@ -9,10 +9,10 @@
 # they accept any liabilities with respect to them.
 
 administrator.inquiries.list.label.title = Título
-administrator.inquiries.list.label.creation = Creación
+administrator.inquiries.list.label.creation = Momento de Creación
 
 administrator.inquiries.form.label.title = Título:
-administrator.inquiries.form.label.creation = Creación:
+administrator.inquiries.form.label.creation = Momento de Creación:
 administrator.inquiries.form.label.deadline = Fecha límite:
 administrator.inquiries.form.label.paragraph = Párrafo:
 administrator.inquiries.form.label.moneyMin = Dinero mínimo:

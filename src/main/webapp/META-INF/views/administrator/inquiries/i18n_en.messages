@@ -12,7 +12,7 @@ administrator.inquiries.list.label.title = Title
 administrator.inquiries.list.label.creation = Creation
 
 administrator.inquiries.form.label.title = Title:
-administrator.inquiries.form.label.creation = Creation:
+administrator.inquiries.form.label.creation = Creation moment:
 administrator.inquiries.form.label.deadline = Deadline:
 administrator.inquiries.form.label.paragraph = Paragraph:
 administrator.inquiries.form.label.moneyMin = Minimum money:

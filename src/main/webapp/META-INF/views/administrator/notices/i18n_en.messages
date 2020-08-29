@@ -9,11 +9,11 @@
 # they accept any liabilities with respect to them.
 
 administrator.notices.list.label.title = Title
-administrator.notices.list.label.creation = Creation
+administrator.notices.list.label.creation = Creation moment
 
 administrator.notices.form.label.headerPicture = Header Picture:
 administrator.notices.form.label.title = Title:
-administrator.notices.form.label.creation = Creation:
+administrator.notices.form.label.creation = Creation moment:
 administrator.notices.form.label.deadline = Deadline:
 administrator.notices.form.label.body = Body:
 administrator.notices.form.label.links = Links:
