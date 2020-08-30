@@ -4,8 +4,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1950</x>
-      <y>430</y>
+      <x>740</x>
+      <y>240</y>
       <w>240</w>
       <h>60</h>
     </coordinates>
@@ -18,8 +18,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1980</x>
-      <y>480</y>
+      <x>770</x>
+      <y>290</y>
       <w>100</w>
       <h>110</h>
     </coordinates>
@@ -29,8 +29,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1450</x>
-      <y>330</y>
+      <x>240</x>
+      <y>140</y>
       <w>220</w>
       <h>120</h>
     </coordinates>
@@ -49,8 +49,8 @@ bg=orange
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>1450</x>
-      <y>240</y>
+      <x>240</x>
+      <y>50</y>
       <w>240</w>
       <h>60</h>
     </coordinates>
@@ -62,8 +62,8 @@ bg=blue</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1550</x>
-      <y>290</y>
+      <x>340</x>
+      <y>100</y>
       <w>30</w>
       <h>60</h>
     </coordinates>
@@ -74,8 +74,8 @@ bg=blue</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>2050</x>
-      <y>480</y>
+      <x>840</x>
+      <y>290</y>
       <w>100</w>
       <h>110</h>
     </coordinates>
@@ -85,8 +85,8 @@ bg=blue</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>2300</x>
-      <y>440</y>
+      <x>1090</x>
+      <y>250</y>
       <w>100</w>
       <h>60</h>
     </coordinates>
@@ -100,8 +100,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>2300</x>
-      <y>360</y>
+      <x>1090</x>
+      <y>170</y>
       <w>100</w>
       <h>60</h>
     </coordinates>
@@ -115,8 +115,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>2300</x>
-      <y>510</y>
+      <x>1090</x>
+      <y>320</y>
       <w>100</w>
       <h>60</h>
     </coordinates>
@@ -130,8 +130,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>2180</x>
-      <y>400</y>
+      <x>970</x>
+      <y>210</y>
       <w>140</w>
       <h>80</h>
     </coordinates>
@@ -141,8 +141,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>2180</x>
-      <y>450</y>
+      <x>970</x>
+      <y>260</y>
       <w>140</w>
       <h>30</h>
     </coordinates>
@@ -152,8 +152,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>2180</x>
-      <y>450</y>
+      <x>970</x>
+      <y>260</y>
       <w>140</w>
       <h>90</h>
     </coordinates>
@@ -163,8 +163,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1450</x>
-      <y>470</y>
+      <x>240</x>
+      <y>280</y>
       <w>220</w>
       <h>70</h>
     </coordinates>
@@ -179,8 +179,8 @@ bg=orange</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1840</x>
-      <y>570</y>
+      <x>630</x>
+      <y>380</y>
       <w>200</w>
       <h>90</h>
     </coordinates>
@@ -194,8 +194,8 @@ Provider
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>2070</x>
-      <y>570</y>
+      <x>860</x>
+      <y>380</y>
       <w>210</w>
       <h>90</h>
     </coordinates>
@@ -209,8 +209,8 @@ Consumer
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1210</x>
-      <y>330</y>
+      <x>0</x>
+      <y>140</y>
       <w>220</w>
       <h>80</h>
     </coordinates>
@@ -226,8 +226,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1210</x>
-      <y>430</y>
+      <x>0</x>
+      <y>240</y>
       <w>220</w>
       <h>130</h>
     </coordinates>
@@ -246,8 +246,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1210</x>
-      <y>580</y>
+      <x>0</x>
+      <y>390</y>
       <w>220</w>
       <h>90</h>
     </coordinates>
@@ -263,8 +263,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1890</x>
-      <y>190</y>
+      <x>680</x>
+      <y>0</y>
       <w>340</w>
       <h>130</h>
     </coordinates>
@@ -285,8 +285,8 @@ UserAccount
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>2060</x>
-      <y>310</y>
+      <x>850</x>
+      <y>120</y>
       <w>70</w>
       <h>140</h>
     </coordinates>
@@ -299,8 +299,8 @@ has v</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1540</x>
-      <y>700</y>
+      <x>330</x>
+      <y>510</y>
       <w>380</w>
       <h>180</h>
     </coordinates>
@@ -310,9 +310,9 @@ Notices
 + headerPicture: String {URL,NotBlank} 
 + title: String {NotBlank, Length(max = 255)}
 + creation: LocalDateTime {DateTimeFormat(
-pattern = "dd-MM-yyyy HH:mm", Past, NotNull}
+pattern = "dd-MM-yyyy HH:mm"), Past, NotNull}
 + deadline: LocalDateTime {DateTimeFormat(
-pattern = "dd-MM-yyyy HH:mm", NotNull}
+pattern = "dd-MM-yyyy HH:mm"), NotNull}
 + body: String {NotBlank}
 + links: String
 
@@ -322,8 +322,8 @@ pattern = "dd-MM-yyyy HH:mm", NotNull}
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1260</x>
-      <y>850</y>
+      <x>50</x>
+      <y>660</y>
       <w>220</w>
       <h>130</h>
     </coordinates>
@@ -343,8 +343,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1260</x>
-      <y>740</y>
+      <x>50</x>
+      <y>550</y>
       <w>210</w>
       <h>80</h>
     </coordinates>
@@ -361,8 +361,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>2450</x>
-      <y>460</y>
+      <x>1240</x>
+      <y>270</y>
       <w>530</w>
       <h>120</h>
     </coordinates>
@@ -377,8 +377,8 @@ Configuration
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>2420</x>
-      <y>920</y>
+      <x>1210</x>
+      <y>730</y>
       <w>370</w>
       <h>220</h>
     </coordinates>
@@ -400,8 +400,8 @@ pattern = "dd-MM-yyyy HH:mm"), NotNull}
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1530</x>
-      <y>930</y>
+      <x>320</x>
+      <y>740</y>
       <w>390</w>
       <h>190</h>
     </coordinates>
@@ -415,14 +415,14 @@ TechnologyRecords
 + website: String {URL, NotBlank, Length(max = 255)}
 + email: String {Email, NotBlank, Length(max = 255)}
 + indication: Indication {NotNull}
-+ stars: Integer {Min(value = -5), Max(value = -5)</panel_attributes>
++ stars: Integer {Min(value = -5), Max(value = 5)</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1960</x>
-      <y>930</y>
+      <x>750</x>
+      <y>740</y>
       <w>400</w>
       <h>190</h>
     </coordinates>
@@ -436,14 +436,14 @@ ToolRecords
 + website: String {URL, NotBlank, Length(max = 255)}
 + email: String {Email, NotBlank, Length(max = 255)}
 + indication: Indication {NotNull}
-+ stars: Integer {Min(value = -5), Max(value = -5)</panel_attributes>
++ stars: Integer {Min(value = -5), Max(value = 5)</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1980</x>
-      <y>700</y>
+      <x>770</x>
+      <y>510</y>
       <w>340</w>
       <h>200</h>
     </coordinates>
@@ -453,7 +453,7 @@ Inquiries
 + title: String {NotBlank, Length(max = 255)} 
 + creation: LocalDateTime {DateTimeFormat(
 pattern = "dd-MM-yyyy HH:mm"), Past, NotNull}
-+ deadline: LocalDateTime {@DateTimeFormat
++ deadline: LocalDateTime {DateTimeFormat
 (pattern = "dd-MM-yyyy HH:mm"), NotNull}
 + paragraph: String {NotBlank}
 + moneyMin: Money {NotNull, Valid}
@@ -465,8 +465,8 @@ pattern = "dd-MM-yyyy HH:mm"), Past, NotNull}
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>2400</x>
-      <y>690</y>
+      <x>1190</x>
+      <y>500</y>
       <w>320</w>
       <h>180</h>
     </coordinates>
@@ -477,7 +477,7 @@ Notices
 + title: String {NotBlank, Length(max = 255)}
 + creation: LocalDateTime {DataTimeFormat(
 pattern = "dd-MM-yyyy HH:mm"), Past, NotNull}
-+ deadline: LocalDateTime {@DateTimeFormat
++ deadline: LocalDateTime {DateTimeFormat
 (pattern = "dd-MM-yyyy HH:mm"), NotNull}
 + body: String {NotBlank}
 + links: String
@@ -488,8 +488,8 @@ pattern = "dd-MM-yyyy HH:mm"), Past, NotNull}
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1530</x>
-      <y>1180</y>
+      <x>320</x>
+      <y>990</y>
       <w>400</w>
       <h>190</h>
     </coordinates>
