@@ -43,7 +43,7 @@ public class AdministratorNoticesCreateService implements AbstractCreateService<
 		assert model != null;
 
 		request.unbind(entity, model, "headerPicture", "title", "deadline", "body", "links");
-
+		
 		if (request.isMethod(HttpMethod.GET)) {
 			model.setAttribute("accept", "false");
 		} else {
@@ -73,6 +73,11 @@ public class AdministratorNoticesCreateService implements AbstractCreateService<
 		if (!errors.hasErrors("accept")) {
 			Boolean isAccepted = request.getModel().getBoolean("accept");
 			errors.state(request, isAccepted, "accept", "administrator.notices.error.must-accept");
+		}
+
+		if (!errors.hasErrors("deadline")) {
+			boolean isAfter = entity.getDeadline().isAfter(LocalDateTime.now());
+			errors.state(request, isAfter, "deadline", "administrator.notices.error.deadlineIsAfter");
 		}
 	}
 

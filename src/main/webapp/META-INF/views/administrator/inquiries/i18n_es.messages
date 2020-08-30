@@ -9,10 +9,10 @@
 # they accept any liabilities with respect to them.
 
 administrator.inquiries.list.label.title = Título
-administrator.inquiries.list.label.creation = Creación
+administrator.inquiries.list.label.creation = Momento de Creación
 
 administrator.inquiries.form.label.title = Título:
-administrator.inquiries.form.label.creation = Creación:
+administrator.inquiries.form.label.creation = Momento de Creación:
 administrator.inquiries.form.label.deadline = Fecha límite:
 administrator.inquiries.form.label.paragraph = Párrafo:
 administrator.inquiries.form.label.moneyMin = Dinero mínimo:
@@ -24,6 +24,7 @@ administrator.inquiries.form.button.update = Actualizar
 administrator.inquiries.form.button.delete = Eliminar
 
 administrator.inquiries.error.must-be-eur = La moneda debe estar en euros 
-
+administrator.inquiries.error.deadlineIsAfter = La fecha límite debe ser posterior a la fecha actual
+administrator.inquiries.error.is-greater = El dinero máximo debe ser mayor que el dinero mínimo
 
 administrator.inquiries.form.button.return = Volver

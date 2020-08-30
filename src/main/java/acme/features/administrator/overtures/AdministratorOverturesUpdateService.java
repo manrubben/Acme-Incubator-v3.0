@@ -43,8 +43,7 @@ public class AdministratorOverturesUpdateService implements AbstractUpdateServic
 		assert entity != null;
 		assert model != null;
 
-		request.unbind(entity, model, "title", "deadline", "paragraph", "RangeMoney", "email");
-
+		request.unbind(entity, model, "title", "creation", "deadline", "paragraph", "moneyMin", "moneyMax", "email");
 	}
 
 	@Override
@@ -65,6 +64,27 @@ public class AdministratorOverturesUpdateService implements AbstractUpdateServic
 		assert request != null;
 		assert entity != null;
 		assert errors != null;
+
+		if (!errors.hasErrors("moneyMax")) {
+			Double moneyMin = entity.getMoneyMin().getAmount();
+			boolean isGreater = entity.getMoneyMax().getAmount().compareTo(moneyMin) > 0;
+			errors.state(request, isGreater, "moneyMax", "administrator.overtures.error.is-greater");
+		}
+
+		if (!errors.hasErrors("moneyMin")) {
+			Boolean isEur = entity.getMoneyMin().getCurrency().matches("EUR|€|EUROS|Euros|euros|eur");
+			errors.state(request, isEur, "moneyMin", "administrator.overtures.error.must-be-eur");
+		}
+
+		if (!errors.hasErrors("moneyMax")) {
+			Boolean isEur = entity.getMoneyMax().getCurrency().matches("EUR|€|EUROS|Euros|euros|eur");
+			errors.state(request, isEur, "moneyMin", "administrator.overtures.error.must-be-eur");
+		}
+
+		if (!errors.hasErrors("deadline")) {
+			boolean isAfter = entity.getDeadline().isAfter(LocalDateTime.now());
+			errors.state(request, isAfter, "deadline", "administrator.overtures.error.deadlineIsAfter");
+		}
 
 	}
 
